@@ -24,6 +24,7 @@ ul{
     z-index: 5;
     position: fixed; /* Change position to fixed */
     top: 0;
+    background-color: rgb(23, 23, 23);
 }
 
 .header .navbar {
@@ -38,19 +39,26 @@ ul{
     text-decoration: none;
 }
 .header .navbar .menu ul{
-    margin-left: 192px;
+    margin-left: 140px;
     border: 0px solid;
     vertical-align: middle;
 }
 .header .navbar .menu ul li{
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 30px;
     border: 0px solid;
     letter-spacing: 1px;
 }
 .header .navbar .menu ul li a{
     color:#ffff ;
     text-decoration: none;
+    border: 0px solid#ffff;
+    padding: 20px;
+}
+.header .navbar .menu ul li a:hover{
+    color: #ffff;
+    transition: all 0.5s;
+    background: #c32865;
 }
 .header .navbar .contact-info {
     position: absolute;
@@ -80,7 +88,7 @@ ul{
 .home{
     position: relative;
     display: inline-block;
-    background-image: linear-gradient(rgb(23, 23, 23),rgb(16, 16, 16));
+    background-image: linear-gradient(rgb(40, 40, 40),rgb(16, 16, 16));
     width: 100%;
     height: 100%;
     /* border: 5px solid#ffffff; */
@@ -169,4 +177,52 @@ ul{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgb(16,16,16) 50%,rgb(195, 40, 101)120% ); /* Set the background color */
+    text-align: center;
+    color: #ffff;
+    display: inline-block;
+    border: 0px solid;
+}
+.about .about-header h1{
+    font-size: 48;
+    color: white;
+    padding-top: 60px;
+}
+.about .about-content {
+    display: inline-block;
+    align-items: center;
+    padding-top: 60px;
+    border: 0px solid #ffff;
+    text-align: left;
+    height: 86%;
+}
+.about .about-content .about-content-text {
+    width: 50%;
+    display: inline-block;
+    align-items: start;
+    padding: 80px;
+    border: 0px solid white;
+    float: left; /* Float left to place text on the left */
+    margin-left: 10px;
+}
+.about .about-content .about-content-image {
+    position: relative;
+    display: inline-block;
+    padding-right: 15%;
+    float: right; /* Float right to place the image on the right */
+    border: 0px solid #ffff;
+    bottom: 0%;
+    margin-bottom: 100px;
+}
+.about .about-content .about-content-image img{
+    max-width: 100%;
+}
+.about .about-content .about-content-text p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
 }
