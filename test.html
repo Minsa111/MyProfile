@@ -1,0 +1,50 @@
+<!--
+    Made by 202110370311465 - Aminudin Muhibbullah
+    Learnt from Sololearn.com
+-->
+
+<html>    		<!-- this is the start of html file it starts with <html> to </html> -->
+    <head>
+        <title>Minsa</title>	<!-- The <head> element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.-->
+    </head>
+    <body>	<!--The <body> element contain the content of an HTML , there can only one body in one HTML file -->
+        <header>
+            <h1 style="background-color:orange">New Awesome Product</h1> 	<!--the <h1> element representing as an heading that has a level from 1 to 6 <h1>, <h2>,<h3>… and so on  -->
+        </header>
+        <main>
+            <img src ="https://blob.sololearn.com/courses/np.png">	<!--img src is to embed an image to an html document -->
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>      <!--the <ul> element is used to make unorder list and the <li is to make the list of it -->                    
+                    <li>Feature 3</li>
+                </ul>
+            <div class = "center">
+                <h2>Order now!</h2>
+                <form>
+                    <label for="sizeid">Size</label>    
+                    <select name="size" id="sizeid">    <!-- <select> is an input where you select one option but you have  to write the option yourself using <option>   -->
+                        <option>Small</option>
+                        <option>Big</option>
+                    </select>
+                    <label for="colorid">Color</label>
+                    <select name="color" id="colorid">
+                        <option>Red</option>
+                        <option>Blue</option>
+                    </select>
+                    <br><br>  <!-- <br> is to break some paragraph, it doesn't need an end like </br> -->
+
+                    <label for="name">Name: </label>
+                    <input type="text" id="name"> <!--<input> is an element where you can input letters or number in it (depends on the type)-->
+                    <br><br>
+                    <label for="name">Email: </label>
+                    <input type="email" id="Email"> <!--<input type ="email"> is an element where you need to input an email and email only-->
+                </form>
+                <button type="submit" style="border:none; border-radius:5px;" onclick=alert("nice")>Submit</button>
+            </div>
+            <br>
+        </main>
+        <footer style="text-align:center; background-color:orange">
+        </footer>
+    </body>
+</html>
+    <!--That is the basic of html, I writed almost all of the function, I explained the code beside the code with comment format on it.-->
